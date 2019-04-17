@@ -55,10 +55,11 @@ html{
 }
 
 
-img#cover {
+img {
 	display:block; 
 	margin: 3em auto 4em auto;
 }
+
 
 
 section#home{
