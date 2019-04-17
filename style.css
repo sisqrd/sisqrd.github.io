@@ -50,12 +50,17 @@ table {
 /* Cutsom CSS */
 
 html{
-    font-family: Helvetica, Arial, sans-serif
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 
 img#cover {
-    display:flex; 
-    align-items: center;
-    justify-content: center;
+	display:block; 
+	margin: 3em auto 4em auto;
+}
+
+
+section#home{
+
 }
