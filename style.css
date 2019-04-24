@@ -74,14 +74,14 @@ section#home{
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
+	padding: 0 2px;
 }
   
 /* Create four equal columns that sits next to each other */
 .column {
 	flex: 25%;
-	max-width: 25%;
-	padding: 0 4px;
+	max-width: 33%;
+	padding: 0 2px;
 }
   
 .column img {
@@ -94,6 +94,8 @@ section#home{
 	.column {
 	  flex: 50%;
 	  max-width: 50%;
+	  flex-wrap: wrap;
+	  align-content: stretch;
 	}
 }
   
@@ -102,5 +104,7 @@ section#home{
 	.column {
 	  flex: 100%;
 	  max-width: 100%;
+	  flex-wrap: wrap;
+	  align-content: stretch;
 	}
 }
