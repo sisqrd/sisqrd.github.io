@@ -95,7 +95,6 @@ section#home{
 	  flex: 50%;
 	  max-width: 50%;
 	  flex-wrap: wrap;
-	  align-content: stretch;
 	}
 }
   
@@ -105,6 +104,5 @@ section#home{
 	  flex: 100%;
 	  max-width: 100%;
 	  flex-wrap: wrap;
-	  align-content: stretch;
 	}
 }
